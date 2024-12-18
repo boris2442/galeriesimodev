@@ -801,6 +801,18 @@ video {
   width: 90%;
 }
 
+.w-\[1\%\] {
+  width: 1%;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[10\%\] {
+  width: 10%;
+}
+
 .min-w-\[350px\] {
   min-width: 350px;
 }
@@ -1006,6 +1018,10 @@ video {
 
 .pb-\[150px\] {
   padding-bottom: 150px;
+}
+
+.pb-\[500px\] {
+  padding-bottom: 500px;
 }
 
 .text-center {

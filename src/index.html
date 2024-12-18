@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
     <header
-      class="grid grid-cols-2 h-[15vh] items-center shadow-lg sticky t-0 z-10 "
-      >
+      class="grid grid-cols-2 h-[15vh] items-center shadow-lg sticky t-0 z-10"
+    >
       <div class=""></div>
       <nav>
         <ul class="flex justify-around">
@@ -40,272 +46,406 @@
     <!-- ############premiere section##### -->
 
     <section id="articles" class="bg-gray-200 min-h-[110vh]">
-        <h1 id="title" class="pt-[100px] text-5xl font-bold pl-[100px]"></h1>
-      <div class="flex ">
+      <h1 id="title" class="pt-[100px] text-5xl font-bold pl-[100px]"></h1>
+      <div class="flex">
         <h2
           id="app"
-          class="pt-[50px] pl-[100px] text-4xl font-bold text-gray-500 "
+          class="pt-[50px] pl-[100px] text-4xl font-bold text-gray-500"
         >
           Ici, je vais partager tout ce qui concerne ma vie. <br />
           Livres que je lis, jeux que je joue, histoires <br />
           et évènements.
         </h2>
         <div>
-          <img src="/imgs/landing-image.png" alt="" class="object-cover object-center " />
+          <img
+            src="/imgs/landing-image.png"
+            alt=""
+            class="object-cover object-center"
+          />
         </div>
       </div>
-
     </section>
 
     <!-- #########sectipn galerie######333 -->
     <section id="galerie" class="pb-[200px]">
-        
-        <div class="text-center text-6xl text-blue-400 flex flex-col leading-[0px] gap-[30px]">
-          <i class="fa-solid fa-chevron-down"></i>
-          <i class="fa-solid fa-chevron-down "></i>
+      <div
+        class="text-center text-6xl text-blue-400 flex flex-col leading-[0px] gap-[30px]"
+      >
+        <i class="fa-solid fa-chevron-down"></i>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <div class="relative mx-auto mt-[30px]">
+        <span
+          class="text-article uppercase font-bold text-center text-4xl p-[10px] border-black border-[5px] mx-auto absolute justify-center items-center flex ml-[40%]"
+          >des articles</span
+        >
+      </div>
+    </section>
+
+    <!-- ##########3section galerie ###########33 -->
+
+    <section id="galerie" class="pb-[100px]">
+       <div
+        class="container flex flex-wrap gap-[30px] px-[10px] pb-[50px] mx-auto">
+      
+      <!-- class="contener-gallery flex justify-center flex-wrap p-[50px] mx-auto gap-[50px] w-full" -->
+        <div class="mx-auto shadow-lg p-[10px] rounded-lg">
+             
+            <img
+            src="/imgs/cat-01.jpg"
+            alt=""
+            class="rounded-[30px] w-[320px] h-[280px]"
+          />
+          <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur <br />
+            adipisicing elit. Quos accusantium.
+          </p>
+
+          <p>Lorem ipsum dolor sit, amet consectetur</p>
+          <br />
+          <hr />
+          <button class="text-blue-400 cursor-pointer text-2xl">
+            En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i>
+          </button>
         </div>
-<div class="relative mx-auto mt-[30px]  ">
-    <span class=" text-article uppercase font-bold text-center    text-4xl  p-[10px]  border-black border-[5px] mx-auto  absolute justify-center items-center flex ml-[40%]">des articles</span>
-</div>
-</section>
+        <div class="mx-auto shadow-lg p-[10px] rounded-lg">
+          <img
+            src="/imgs/cat-02.jpg"
+            alt=""
+            class="rounded-[30px] w-[320px] h-[280px]"
+          />
+          <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur <br />
+            adipisicing elit. Quos accusantium.
+          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur</p>
+          <br />
+          <hr />
 
-<!-- ##########3section galerie ###########33 -->
+          <button class="text-blue-400 cursor-pointer text-2xl">
+            En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i>
+          </button>
+        </div>
+        <div class="mx-auto rounded-lg shadow-lg p-[10px]">
+          <img
+            src="/imgs/cat-03.jpg"
+            alt=""
+            class="rounded-[30px] w-[320px] h-[280px]"
+          />
+          <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur <br />
+            adipisicing elit. Quos accusantium.
+          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur</p>
+          <br />
+          <hr />
 
-<section id="galerie" class="pb-[100px]">
+          <button class="text-blue-400 cursor-pointer text-2xl">
+            En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i>
+          </button>
+        </div>
+        <div class="mx-auto rounded-lg shadow-lg p-[10px]">
+          <img
+            src="/imgs/cat-04.jpg"
+            alt=""
+            class="rounded-[30px] w-[320px] h-[280px]"
+          />
+          <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur <br />
+            adipisicing elit. Quos accusantium.
+          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur</p>
+          <br />
+          <hr />
 
+          <button class="text-blue-400 cursor-pointer text-2xl">
+            En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i>
+          </button>
+        </div>
+        <div class="mx-auto rounded-lg shadow-lg p-[10px]">
+          <img
+            src="/imgs/cat-05.jpg"
+            alt=""
+            class="rounded-[30px] w-[320px] h-[280px]"
+          />
+          <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur <br />
+            adipisicing elit. Quos accusantium.
+          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur</p>
+          <br />
+          <hr />
 
-<div class="container flex flex-wrap gap-[30px] px-[10px] pb-[50px] mx-auto">
-    <div class="mx-auto  shadow-lg p-[10px] rounded-lg">
-        <img src="/imgs/cat-01.jpg" alt="" class="rounded-[30px] w-[320px] h-[280px]">
-        <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Quos accusantium.</p>
+          <button class="text-blue-400 cursor-pointer text-2xl">
+            En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i>
+          </button>
+        </div>
+        <div class="mx-auto rounded-lg shadow-lg p-[10px]">
+          <img
+            src="/imgs/cat-06.jpg"
+            alt=""
+            class="rounded-[30px] w-[320px] h-[280px]"
+          />
+          <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur <br />
+            adipisicing elit. Quos accusantium.
+          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur</p>
+          <br />
+          <hr />
 
-        <p>Lorem ipsum dolor sit, amet consectetur </p><br>
-        <hr >
-        <button class="text-blue-400 cursor-pointer text-2xl">En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i></button>
-    </div>
-    <div class="mx-auto  shadow-lg p-[10px] rounded-lg">
-        <img src="/imgs/cat-02.jpg" alt="" class="rounded-[30px] w-[320px] h-[280px]">
-        <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Quos accusantium.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur </p><br>
-        <hr >
-        
-        <button class="text-blue-400 cursor-pointer text-2xl">En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i></button>
-    </div>
-    <div class="mx-auto rounded-lg shadow-lg p-[10px]">
-        <img src="/imgs/cat-03.jpg" alt="" class="rounded-[30px] w-[320px] h-[280px]">
-        <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Quos accusantium.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur </p><br>
-        <hr >
-        
-        <button class="text-blue-400 cursor-pointer text-2xl">En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i></button>
-    </div>
-    <div class="mx-auto rounded-lg  shadow-lg p-[10px]">
-        <img src="/imgs/cat-04.jpg" alt="" class="rounded-[30px] w-[320px] h-[280px]">
-        <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Quos accusantium.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur </p><br>
-        <hr >
-        
-        <button class="text-blue-400 cursor-pointer text-2xl">En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i></button>
-    </div>
-    <div class="mx-auto rounded-lg  shadow-lg p-[10px]">
-        <img src="/imgs/cat-05.jpg" alt="" class="rounded-[30px] w-[320px] h-[280px]">
-        <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Quos accusantium.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur </p><br>
-        <hr >
-        
-        <button class="text-blue-400 cursor-pointer text-2xl">En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i></button>
-    </div>
-    <div class="mx-auto rounded-lg  shadow-lg p-[10px]">
-        <img src="/imgs/cat-06.jpg" alt="" class="rounded-[30px] w-[320px] h-[280px]">
-        <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Quos accusantium.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur </p><br>
-        <hr >
-        
-        <button class="text-blue-400 cursor-pointer text-2xl">En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i></button>
-    </div>
-    <div class="mx-auto rounded-lg  shadow-lg p-[10px]">
-        <img src="/imgs/cat-08.jpg" alt="" class="rounded-[30px] w-[320px] h-[280px]">
-        <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Quos accusantium.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur </p><br>
-        <hr >
-        
-        <button class="text-blue-400 cursor-pointer text-2xl">En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i></button>
-    </div>
-    <div class="mx-auto rounded-lg shadow-lg p-[10px]">
-        <img src="/imgs/cat-07.jpg" alt="" class="rounded-[30px] w-[320px] h-[280px]">
-        <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Quos accusantium.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur </p><br>
-        <hr >
-        
-        <button class="text-blue-400 text-2xl cursor-pointer">En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg] "></i></button>
-    </div>
-</div>
+          <button class="text-blue-400 cursor-pointer text-2xl">
+            En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i>
+          </button>
+        </div>
+        <div class="mx-auto rounded-lg shadow-lg p-[10px]">
+          <img
+            src="/imgs/cat-08.jpg"
+            alt=""
+            class="rounded-[30px] w-[320px] h-[280px]"
+          />
+          <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur <br />
+            adipisicing elit. Quos accusantium.
+          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur</p>
+          <br />
+          <hr />
 
-</section>
+          <button class="text-blue-400 cursor-pointer text-2xl">
+            En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i>
+          </button>
+        </div>
+        <div class="mx-auto rounded-lg shadow-lg p-[10px]">
+          <img
+            src="/imgs/cat-07.jpg"
+            alt=""
+            class="rounded-[30px] w-[320px] h-[280px]"
+          />
+          <h4 class="test-center flex font-bold text-2xl">Test Title</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur <br />
+            adipisicing elit. Quos accusantium.
+          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur</p>
+          <br />
+          <hr />
 
-<section id="sect" class="h-screen bg-gray-200 pb-[100px] pt-[100px]">
-    <!-- <div class="text-center text-6xl text-blue-400 flex flex-col leading-[0px] gap-[30px]">
+          <button class="text-blue-400 text-2xl cursor-pointer">
+            En savoir plus <i class="fa-solid fa-arrow-up rotate-[90deg]"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="sect" class="h-min--screen bg-gray-200 pb-[100px] pt-[100px]">
+      <!-- <div class="text-center text-6xl text-blue-400 flex flex-col leading-[0px] gap-[30px]">
         <i class="fa-solid fa-chevron-down"></i>
         <i class="fa-solid fa-chevron-down "></i>
       </div> -->
-<div class="relative mx-auto mt-[30px] pb-[150px]  ">
-  <span class=" text-article uppercase font-bold text-center    text-4xl  p-[10px]  border-black border-[5px] mx-auto  absolute justify-center items-center flex ml-[40%]">gallery</span>
-</div>
+      <div class="relative mx-auto mt-[30px] pb-[150px]">
+        <span
+          class="text-article uppercase font-bold text-center text-4xl p-[10px] border-black border-[5px] mx-auto absolute justify-center items-center flex ml-[40%]"
+          >gallery</span
+        >
+      </div>
+
+      <div
+        class="contener-gallery flex justify-center flex-wrap p-[50px] mx-auto gap-[50px] w-full pb-[100px]"
+      >
+        <div class="bg-white p-[15px] rounded-md shadow-xl">
+          <img
+            src="/imgs/gallery-01.png"
+            alt=""
+            class="w-[100%] h-[300px] object-cover object-center mx-auto"
+          />
+        </div>
+
+        <div class="bg-white p-[15px] rounded-md shadow-xl">
+          <img
+            src="/imgs/gallery-02.png"
+            alt=""
+            class=" mx-auto w-[100%] h-[300px] object-cover object-center"
+          />
+        </div>
+
+        <div class="bg-white p-[15px] rounded-md shadow-xl">
+          <img
+            src="/imgs/gallery-03.jpg"
+            alt=""
+            class="w-[100%] mx-auto h-[300px] object-cover object-center"
+          />
+        </div>
+
+        <div class="bg-white p-[15px] rounded-md shadow-xl">
+          <img
+            src="/imgs/gallery-04.png"
+            alt=""
+            class="w-[100%] mx-auto h-[300px] rounded object-cover object-center"
+          />
+        </div>
+
+        <div class="bg-white p-[15px] rounded-md shadow-xl">
+          <img
+            src="/imgs/gallery-05.jpg"
+            alt=""
+            class="w-[100%] mx-auto h-[300px] object-cover object-center"
+          />
+        </div>
+
+        <div class="bg-white p-[15px] rounded-md shadow-xl">
+          <img
+            src="/imgs/gallery-06.png"
+            alt=""
+            class="w-[100%] mx-auto h-[300px] object-cover object-center"
+          />
+        </div>
+      </div>
+    </section><br><br>
 
 
-<div class="contain flex flex-wrap">
+    <!-- #####3section caracteristiques -->
 
-    <div class="border-2 border-solid border-black">
-        <img src="/imgs/gallery-01.png" alt="" class="w-[90%] h-[300px] ">
-</div>
+    <!-- ##########3suite section temoignega -->
 
-    <div class="">
-        <img src="/imgs/gallery-02.png" alt="" class="w-[90%] h-[300px]">
-</div>
-
-    <div class="">
-        <img src="/imgs/gallery-03.jpg" alt="" class="w-[90%] h-[300px]">
-</div>
-
-    <div class="">
-        <img src="/imgs/gallery-04.png" alt="" class="w-[90%] h-[300px] rounded">
-</div>
-
-    <div class="">
-        <img src="/imgs/gallery-05.jpg" alt="" class="w-[90%] h-[300px]">
-</div>
-
-    <div class="">
-        <img src="/imgs/gallery-06.png" alt="" class="w-[90%] h-[300px]">
-</div>
-    </div>
-
-
-
-
-
-</section>
-
-
-
-<!-- #####3section caracteristiques -->
-
-<!-- ##########3suite section temoignega -->
-
-<section id="galeri" class="bg-gray-200 min-h-[110vh] mx-auto pt-[50px]">
-
-    <!-- <div class="text-center text-6xl text-blue-400 flex flex-col leading-[0px] gap-[30px]">
+    <section id="galeri" class="bg-gray-200 min-h-[110vh] mx-auto pt-[50px]">
+      <!-- <div class="text-center text-6xl text-blue-400 flex flex-col leading-[0px] gap-[30px]">
         <i class="fa-solid fa-chevron-down"></i>
         <i class="fa-solid fa-chevron-down "></i>
       </div> -->
-<div class="relative mx-auto mt-[30px] pb-[200px]  ">
-  <span class=" text-article uppercase font-bold text-center    text-4xl  p-[10px]  border-black border-[5px] mx-auto  absolute justify-center items-center flex ml-[40%]">gallery</span>
-</div>
+      <div class="relative mx-auto mt-[30px] pb-[200px]">
+        <span
+          class="text-article uppercase font-bold text-center text-4xl p-[10px] border-black border-[5px] mx-auto absolute justify-center items-center flex ml-[40%]"
+          >gallery</span
+        >
+      </div>
 
-
-<div class="contener-gallery flex justify-center flex-wrap p-[50px] mx-auto  gap-[50px] w-full  ">
-<div class="bg-white p-[15px] rounded-md shadow-xl relative">
-   <img src="/imgs/avatar-01.png" alt="" class="w-[80px] h-[80px] rounded-[50%] absolute top-[-40px] right-[-40px] shadow-xl">
-  <h4 class="font-bold uppercase text-2xl"> Simo Aubin</h4>
-  <h5 class="">full stack developper</h5>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <p>Lorem ipsum dolor sit amet, consectetur  <br>adipisicing elit. Totam, suscipit dicta sint distinctio <br></p>
-  <p>Lorem ipsum dolor sit amet consectetur lkkljkjhg</p>
-</div>
-<div class="bg-white p-[15px] rounded-md shadow-xl relative">
-   <img src="/imgs/avatar-01.png" alt="" class="w-[80px] h-[80px] rounded-[50%] absolute top-[-40px] right-[-40px] shadow-xl">
-  <h4 class="font-bold uppercase text-2xl"> Simo Aubin</h4>
-  <h5 class="">full stack developper</h5>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <p>Lorem ipsum dolor sit amet, consectetur  <br>adipisicing elit. Totam, suscipit dicta sint distinctio <br></p>
-  <p>Lorem ipsum dolor sit amet consectetur lkkljkjhg</p>
-</div>
-<div class="bg-white p-[15px] shadow-xl relative">
-   <img src="/imgs/avatar-01.png" alt="" class="w-[80px] h-[80px] rounded-[50%] absolute top-[-40px] right-[-40px] shadow-xl">
-  <h4 class="font-bold uppercase text-2xl"> Simo Aubin</h4>
-  <h5 class="">full stack developper</h5>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <p>Lorem ipsum dolor sit amet, consectetur  <br>adipisicing elit. Totam, suscipit dicta sint distinctio <br></p>
-  <p>Lorem ipsum dolor sit amet consectetur lkkljkjhg</p>
-</div>
-<div class="bg-white p-[15px] rounded-md shadow-xl relative">
-   <img src="/imgs/avatar-01.png" alt="" class="w-[80px] h-[80px] rounded-[50%] absolute top-[-40px] right-[-40px] shadow-xl">
-  <h4 class="font-bold uppercase text-2xl"> Simo Aubin</h4>
-  <h5 class="">full stack developper</h5>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <p>Lorem ipsum dolor sit amet, consectetur  <br>adipisicing elit. Totam, suscipit dicta sint distinctio <br></p>
-  <p>Lorem ipsum dolor sit amet consectetur lkkljkjhg</p>
-</div>
-<div class="bg-white p-[15px] rounded-md shadow-xl relative">
-   <img src="/imgs/avatar-01.png" alt="" class="w-[80px] h-[80px] rounded-[50%] absolute top-[-40px] right-[-40px] shadow-xl">
-  <h4 class="font-bold uppercase text-2xl"> Simo Aubin</h4>
-  <h5 class="">full stack developper</h5>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <p>Lorem ipsum dolor sit amet, consectetur  <br>adipisicing elit. Totam, suscipit dicta sint distinctio <br></p>
-  <p>Lorem ipsum dolor sit amet consectetur lkkljkjhg</p>
-</div>
-<div class="bg-white p-[15px] shadow-xl rounded-md relative">
-   <img src="/imgs/avatar-01.png" alt="" class="w-[80px] h-[80px] rounded-[50%] absolute top-[-40px] right-[-40px] shadow-xl">
-  <h4 class="font-bold uppercase text-2xl"> Simo Aubin</h4>
-  <h5 class="">full stack developper</h5>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
-  <p>Lorem ipsum dolor sit amet, consectetur  <br>adipisicing elit. Totam, suscipit dicta sint distinctio <br></p>
-  <p>Lorem ipsum dolor sit amet consectetur lkkljkjhg</p>
-</div>
-
-
-    
-</div>
-
-
-
-
-
-
-
-
-
-</section>
-
-
-
-
-
-
-
-
+      <div
+        class="contener-gallery flex justify-center flex-wrap p-[50px] mx-auto gap-[50px] w-full"
+      >
+        <div class="bg-white p-[15px] rounded-md shadow-xl relative">
+          <img
+            src="/imgs/avatar-01.png"
+            alt=""
+            class="w-[80px] h-[80px] rounded-[50%] absolute top-[-40px] right-[-40px] shadow-xl"
+          />
+          <h4 class="font-bold uppercase text-2xl">Simo Aubin</h4>
+          <h5 class="">full stack developper</h5>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur <br />adipisicing elit.
+            Totam, suscipit dicta sint distinctio <br />
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur lkkljkjhg</p>
+        </div>
+        <div class="bg-white p-[15px] rounded-md shadow-xl relative">
+          <img
+            src="/imgs/avatar-01.png"
+            alt=""
+            class="w-[80px] h-[80px] rounded-[50%] absolute top-[-40px] right-[-40px] shadow-xl"
+          />
+          <h4 class="font-bold uppercase text-2xl">Simo Aubin</h4>
+          <h5 class="">full stack developper</h5>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur <br />adipisicing elit.
+            Totam, suscipit dicta sint distinctio <br />
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur lkkljkjhg</p>
+        </div>
+        <div class="bg-white p-[15px] shadow-xl relative">
+          <img
+            src="/imgs/avatar-01.png"
+            alt=""
+            class="w-[80px] h-[80px] rounded-[50%] absolute top-[-40px] right-[-40px] shadow-xl"
+          />
+          <h4 class="font-bold uppercase text-2xl">Simo Aubin</h4>
+          <h5 class="">full stack developper</h5>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur <br />adipisicing elit.
+            Totam, suscipit dicta sint distinctio <br />
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur lkkljkjhg</p>
+        </div>
+        <div class="bg-white p-[15px] rounded-md shadow-xl relative">
+          <img
+            src="/imgs/avatar-01.png"
+            alt=""
+            class="w-[80px] h-[80px] rounded-[50%] absolute top-[-40px] right-[-40px] shadow-xl"
+          />
+          <h4 class="font-bold uppercase text-2xl">Simo Aubin</h4>
+          <h5 class="">full stack developper</h5>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur <br />adipisicing elit.
+            Totam, suscipit dicta sint distinctio <br />
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur lkkljkjhg</p>
+        </div>
+        <div class="bg-white p-[15px] rounded-md shadow-xl relative">
+          <img
+            src="/imgs/avatar-01.png"
+            alt=""
+            class="w-[80px] h-[80px] rounded-[50%] absolute top-[-40px] right-[-40px] shadow-xl"
+          />
+          <h4 class="font-bold uppercase text-2xl">Simo Aubin</h4>
+          <h5 class="">full stack developper</h5>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur <br />adipisicing elit.
+            Totam, suscipit dicta sint distinctio <br />
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur lkkljkjhg</p>
+        </div>
+        <div class="bg-white p-[15px] shadow-xl rounded-md relative">
+          <img
+            src="/imgs/avatar-01.png"
+            alt=""
+            class="w-[80px] h-[80px] rounded-[50%] absolute top-[-40px] right-[-40px] shadow-xl"
+          />
+          <h4 class="font-bold uppercase text-2xl">Simo Aubin</h4>
+          <h5 class="">full stack developper</h5>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <i class="fa solid fa-star text-yellow-500 text-2xl"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur <br />adipisicing elit.
+            Totam, suscipit dicta sint distinctio <br />
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur lkkljkjhg</p>
+        </div>
+      </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@latest/dist/core.js"></script>
     <script src="/javascript/script.js"></script>
