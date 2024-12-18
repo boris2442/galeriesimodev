@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
+
+@layer utilities{
+    #articles{
+        clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%); 
+    }
+    .text-article{
+     
+    }
+    .text-article::after{
+        content:"";
+background-color: rgb(112,201,239);
+height:30px;
+width: 30px;
+left: -50px;
+position: absolute;
+border-radius: 50px;
+    }
+    .text-article::before{
+        content:"";
+background-color: rgb(112,201,239);
+height:30px;
+width: 30px;
+right: -50px;
+position: absolute;
+border-radius: 50px;
+    }
+}
