@@ -866,6 +866,10 @@ video {
   gap: 50px;
 }
 
+.gap-\[30\] {
+  gap: 30;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -974,6 +978,11 @@ video {
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.py-\[5px\] {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .pl-\[100px\] {
