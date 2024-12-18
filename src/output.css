@@ -645,6 +645,18 @@ video {
   height: 280px;
 }
 
+.h-\[200\] {
+  height: 200;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[90px\] {
+  height: 90px;
+}
+
 .min-h-\[110vh\] {
   min-height: 110vh;
 }
@@ -683,6 +695,10 @@ video {
 
 .w-\[320px\] {
   width: 320px;
+}
+
+.w-\[90px\] {
+  width: 90px;
 }
 
 .min-w-\[350px\] {
@@ -740,6 +756,10 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-\[50\%\] {
+  border-radius: 50%;
 }
 
 .border-\[5px\] {
