@@ -28,4 +28,7 @@ right: -50px;
 position: absolute;
 border-radius: 50px;
     }
+    .clip{
+        clip-path: polygon(100% 0, 100% 53%, 0 99%, 0 0%);  
+    }
 }
