@@ -608,6 +608,14 @@ video {
   top: -40px;
 }
 
+.right-\[20px\] {
+  right: 20px;
+}
+
+.top-\[30px\] {
+  top: 30px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -661,6 +669,14 @@ video {
   height: 400px;
 }
 
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[450px\] {
+  height: 450px;
+}
+
 .min-h-\[110vh\] {
   min-height: 110vh;
 }
@@ -695,6 +711,14 @@ video {
 
 .w-\[300px\] {
   width: 300px;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[\] {
+  width: ;
 }
 
 .rotate-\[90deg\] {
@@ -736,6 +760,18 @@ video {
 
 .gap-\[50px\] {
   gap: 50px;
+}
+
+.gap-\[60px\] {
+  gap: 60px;
+}
+
+.gap-\[40px\] {
+  gap: 40px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
 }
 
 .rounded {
@@ -816,6 +852,16 @@ video {
 .bg-gray-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity, 1));
 }
 
 .object-cover {
