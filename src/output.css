@@ -616,6 +616,10 @@ video {
   top: 30px;
 }
 
+.right-\[10px\] {
+  right: 10px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1019,6 +1023,16 @@ video {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 
 .shadow-lg {
