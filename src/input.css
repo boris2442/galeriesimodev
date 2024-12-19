@@ -54,13 +54,13 @@ position: absolute;
     }
 
     .passion::after{
-        background-color:rgb(59 130 246 ) ;
-        content:"";
-        height: 5px;
-       width:100px;
-             bottom:20px;
+         background-color:rgb(59 130 246 ) ;
+         content:"";
+         height: 5px;
+         width:100px;
+         bottom:20px;
          border: none;
          left:40%;
-       position: absolute
+       position: absolute;
     }
 }

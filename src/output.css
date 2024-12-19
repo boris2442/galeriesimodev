@@ -750,6 +750,10 @@ video {
   border-width: 5px;
 }
 
+.border-\[1px\] {
+  border-width: 1px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -852,6 +856,10 @@ video {
 
 .pt-\[50px\] {
   padding-top: 50px;
+}
+
+.pb-\[10px\] {
+  padding-bottom: 10px;
 }
 
 .text-center {
@@ -1002,7 +1010,7 @@ video {
   bottom:20px;
   border: none;
   left:40%;
-  position: absolute
+  position: absolute;
 }
 
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
