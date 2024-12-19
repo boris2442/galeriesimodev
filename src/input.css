@@ -42,4 +42,14 @@ border-radius: 50px;
         position: absolute;
 
     }
+    .heure::after{
+        content:"";
+  height: 5px;
+  background-color:rgb(147 197 253) ;
+    width:100px;
+      bottom:20px;
+  border: none;
+  left:40%;
+position: absolute; 
+    }
 }
