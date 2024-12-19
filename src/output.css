@@ -657,6 +657,10 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-\[15vh\] {
   height: 15vh;
 }
@@ -1059,7 +1063,7 @@ video {
   position: absolute;
 }
 
-header i{
+.bar{
   display:none;
 }
 
@@ -1068,4 +1072,14 @@ header i{
 .hover\:grayscale-\[100\%\]:hover {
   --tw-grayscale: grayscale(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@media not all and (min-width: 1280px) {
+  .max-xl\:block {
+    display: block;
+  }
+
+  .max-xl\:hidden {
+    display: none;
+  }
 }
