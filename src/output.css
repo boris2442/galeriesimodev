@@ -681,6 +681,10 @@ video {
   height: 450px;
 }
 
+.h-\[490px\] {
+  height: 490px;
+}
+
 .min-h-\[110vh\] {
   min-height: 110vh;
 }
@@ -952,6 +956,10 @@ video {
 
 .pt-\[20px\] {
   padding-top: 20px;
+}
+
+.pt-\[10px\] {
+  padding-top: 10px;
 }
 
 .text-center {
