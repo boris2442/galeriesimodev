@@ -665,6 +665,10 @@ video {
   display: none;
 }
 
+.h-\[100\%\] {
+  height: 100%;
+}
+
 .h-\[15vh\] {
   height: 15vh;
 }
@@ -685,24 +689,16 @@ video {
   height: 490px;
 }
 
+.h-\[50px\] {
+  height: 50px;
+}
+
 .h-\[80px\] {
   height: 80px;
 }
 
 .h-auto {
   height: auto;
-}
-
-.h-\[10px\] {
-  height: 10px;
-}
-
-.h-\[50px\] {
-  height: 50px;
-}
-
-.h-\[100\%\] {
-  height: 100%;
 }
 
 .min-h-\[110vh\] {
@@ -737,36 +733,32 @@ video {
   width: 450px;
 }
 
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
 .w-\[600px\] {
   width: 600px;
+}
+
+.w-\[70\%\] {
+  width: 70%;
 }
 
 .w-\[80px\] {
   width: 80px;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-\[200px\] {
-  width: 200px;
-}
-
-.w-\[90\%\] {
-  width: 90%;
-}
-
-.w-\[800px\] {
-  width: 800px;
-}
-
 .w-\[85\%\] {
   width: 85%;
 }
 
-.w-\[80\%\] {
-  width: 80%;
+.w-full {
+  width: 100%;
 }
 
 .rotate-\[90deg\] {
@@ -884,9 +876,19 @@ video {
   background-color: rgb(96 165 250 / var(--tw-bg-opacity, 1));
 }
 
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
 }
 
 .bg-red-200 {
@@ -897,16 +899,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
 }
 
 .object-cover {
@@ -1175,6 +1167,14 @@ video {
 
 .number-one{
   clip-path: polygon(1% 2%, 100% 0, 71% 100%, 0% 100%);
+}
+
+.langage{
+  display:grid;
+  justify-content: center;
+  padding:30px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap:30px;
 }
 
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */

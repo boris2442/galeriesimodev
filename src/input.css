@@ -69,4 +69,11 @@ position: absolute;
     .number-one{
         clip-path: polygon(1% 2%, 100% 0, 71% 100%, 0% 100%);
     }
+    .langage{
+        display:grid;
+        justify-content: center;
+        padding:30px;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        gap:30px;
+    }
 }
