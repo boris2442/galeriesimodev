@@ -76,4 +76,10 @@ position: absolute;
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
         gap:30px;
     }
+    .comerciale{
+        display:grid;
+        gap:30px;
+        padding:30px;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
 }
