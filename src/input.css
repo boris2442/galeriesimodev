@@ -31,4 +31,15 @@ border-radius: 50px;
     .clip{
         clip-path: polygon(100% 0, 100% 53%, 0 99%, 0 0%);  
     }
+    .quality::after{
+        content:"";
+        background-color: red;
+        height: 5px;
+        width:100px;
+        bottom:20px;
+        border: none;
+        left:40%;
+        position: absolute;
+
+    }
 }
