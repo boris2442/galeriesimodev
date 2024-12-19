@@ -932,6 +932,11 @@ video {
   padding-bottom: 100px;
 }
 
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .pb-\[100px\] {
   padding-bottom: 100px;
 }
@@ -994,6 +999,14 @@ video {
 
 .pb-\[0px\] {
   padding-bottom: 0px;
+}
+
+.pb-\[15px\] {
+  padding-bottom: 15px;
+}
+
+.pt-\[15px\] {
+  padding-top: 15px;
 }
 
 .text-center {
