@@ -66,4 +66,7 @@ position: absolute;
     .bar{
         display:none;
     }
+    .number-one{
+        clip-path: polygon(1% 2%, 100% 0, 71% 100%, 0% 100%);
+    }
 }
