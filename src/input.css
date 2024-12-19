@@ -7,9 +7,7 @@
     #articles{
         clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%); 
     }
-    .text-article{
-     
-    }
+    
     .text-article::after{
         content:"";
 background-color: rgb(112,201,239);
