@@ -36,12 +36,13 @@ const tata=document.querySelector(".tat");
 const closeIcon=document.querySelector(".closeIcon")
 
 bar.addEventListener("click", ()=>{
-    navigation.classList.toggle("scrool")
+    navigation.classList.add("scrool")
   bar.style.display = 'none';
     closeIcon.style.display = 'block';
 
 })
 closeIcon.addEventListener("click", ()=>{
+    navigation.classList.remove("scrool")
     closeIcon.style.display = 'none';
     bar.style.display = 'block';
 })

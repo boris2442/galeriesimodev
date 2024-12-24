@@ -124,7 +124,7 @@ position: absolute;
       
         width: 100%;
     }
-    .bar:hover{
+    .bar:hover,    .closeIcon:hover{
         background-color: gray;
         padding: 15px;
         color:#fff;

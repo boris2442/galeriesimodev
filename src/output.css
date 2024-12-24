@@ -1301,7 +1301,7 @@ header ul li a:hover::before{
   width: 100%;
 }
 
-.bar:hover{
+.bar:hover,    .closeIcon:hover{
   background-color: gray;
   padding: 15px;
   color:#fff;
