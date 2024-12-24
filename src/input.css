@@ -91,7 +91,7 @@ position: absolute;
             display: flex;
             left:-100%;
             transition: 0.8s ease-in-out;
-            top: 151px;
+            top: 107px;
             width: 250px;
             height: 300px;
             padding: 0;
@@ -105,6 +105,9 @@ position: absolute;
         }
         .tog{
             display: block;
+          }
+          .tog2{
+            display: none;
           }
         .closeIcon{
             display: none;
@@ -124,7 +127,7 @@ position: absolute;
        content:"";
        position: absolute; 
        background-color: gray;
-       height: 2px;
+       height: 4px;
        transition: width 0.5s ease-in-out;
        width: 0%;
        bottom: -2px;
@@ -152,7 +155,7 @@ position: absolute;
       }
      
     
-      /* @media screen and (min-width:1280px) {
+      @media screen and (min-width:1280px) {
         .closeIcon{
             display: none;
               
@@ -160,5 +163,5 @@ position: absolute;
           .bar{
             display: none;
           }
-      } */
+      }
 }

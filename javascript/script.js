@@ -57,4 +57,6 @@ window.addEventListener("scroll", ()=>{
     navigation.classList.remove("scrool")
     // closeIcon.style.display = 'none'
     // bar.style.display = 'block'
+    // bar.classList.add("tog")
+    // closeIcon.classList.add("tog2")
 })
