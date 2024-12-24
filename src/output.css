@@ -1279,6 +1279,18 @@ video {
     flex-direction: column;
   }
 
+  .tog{
+    display: block;
+  }
+
+  .closeIcon{
+    display: none;
+  }
+
+  .bar{
+    display: block;
+  }
+
   .scrool{
     left: 5px;
   }
@@ -1302,22 +1314,28 @@ header ul li a:hover::before{
   width: 100%;
 }
 
-.bar:hover,    .closeIcon:hover{
-  background-color: gray;
-  padding: 15px;
-  color:#fff;
-  transition: 0.5s ease-in-out;
-  width: 50px;
-  border-radius: 50%;
+.bar:hover, .closeIcon:hover{
+  /* background-color: gray; */
+  /* padding: 15px; */
+  /* color:#fff; */
+  /* transition: 0.5s ease-in-out; */
+  /* width: 50px;
+        border-radius: 50%; */
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
-  height: 50px;
+  /* height: 50px; */
 }
 
-.closeIcon{
-  display: none;
-}
+/* @media screen and (min-width:1280px) {
+        .closeIcon{
+            display: none;
+              
+          }
+          .bar{
+            display: none;
+          }
+      } */
 
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
 

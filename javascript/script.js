@@ -38,6 +38,7 @@ const closeIcon=document.querySelector(".closeIcon")
 bar.addEventListener("click", ()=>{
     navigation.classList.add("scrool")
   bar.style.display = 'none';
+//   bar.classList.add("closeIcon")
 //   closeIcon.classList.remove(rem)
 //   bar.classList.add("rem")
     closeIcon.style.display = 'block';
@@ -49,4 +50,11 @@ closeIcon.addEventListener("click", ()=>{
     // closeIcon.classList.add(rem)
     bar.style.display = 'block';
     // bar.classList.remove("rem")
+})
+
+  
+window.addEventListener("scroll", ()=>{
+    navigation.classList.remove("scrool")
+    // closeIcon.style.display = 'none'
+    // bar.style.display = 'block'
 })
