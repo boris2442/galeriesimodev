@@ -92,15 +92,17 @@ position: absolute;
             left:-100%;
             transition: 0.8s ease-in-out;
             top: 107px;
-            width: 250px;
-            height: 300px;
+            width: 50vw;
+            height: 50vh;
             padding: 0;
             gap:30px;
-            box-shadow: 2px 2px 5px  rbg(33, 50, 145) ;
+           box-shadow: 0px 5px 12px 7px gray;
             border: 1px solid rgb(28, 28, 69);
             column-gap: 0px;
-           padding-left: 10px;
-           border-radius: 7px;
+            padding-left: 10px;
+            text-align: center;
+            border-radius: 7px;
+            border-bottom-right-radius: 70px;
             flex-direction: column;
         }
         .tog{

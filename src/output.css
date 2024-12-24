@@ -796,10 +796,6 @@ video {
   width: 100%;
 }
 
-.w-\[200px\] {
-  width: 200px;
-}
-
 .rotate-\[90deg\] {
   --tw-rotate: 90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1270,16 +1266,18 @@ video {
     left:-100%;
     transition: 0.8s ease-in-out;
     top: 107px;
-    width: 250px;
-    height: 300px;
+    width: 50vw;
+    height: 50vh;
     padding: 0;
     gap:30px;
-    box-shadow: 2px 2px 5px  rbg(33, 50, 145) ;
+    box-shadow: 0px 5px 12px 7px gray;
     border: 1px solid rgb(28, 28, 69);
     -moz-column-gap: 0px;
          column-gap: 0px;
     padding-left: 10px;
+    text-align: center;
     border-radius: 7px;
+    border-bottom-right-radius: 70px;
     flex-direction: column;
   }
 
@@ -1364,29 +1362,7 @@ header ul li a:hover::before{
 }
 
 @media not all and (min-width: 1024px) {
-  .max-lg\:flex {
-    display: flex;
-  }
-
   .max-lg\:w-\[100\%\] {
     width: 100%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:flex {
-    display: flex;
-  }
-
-  .lg\:w-\[100\%\] {
-    width: 100%;
-  }
-}
-
-@media not all and (min-width: 1024px) {
-  @media (min-width: 1024px) {
-    .max-lg\:lg\:w-\[100\%\] {
-      width: 100%;
-    }
   }
 }
