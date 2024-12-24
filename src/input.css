@@ -7,6 +7,13 @@
     #articles{
         clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%); 
     }
+    img{
+        transition: 0.7s ease-in-out;
+    }
+    img:hover{
+        filter:grayscale(100%);
+        transform: scaleX(-1);
+    }
     
     .text-article::after{
         content:"";
