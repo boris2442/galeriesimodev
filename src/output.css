@@ -1283,6 +1283,28 @@ video {
   }
 }
 
+header ul li a{
+  position: relative;
+}
+
+header ul li a::before{
+  content:"";
+  position: absolute;
+  background-color: gray;
+  height: 2px;
+  transition: width 0.5s ease-in-out;
+  width: 0%;
+  bottom: -2px;
+}
+
+header ul li a:hover::before{
+  width: 100%;
+}
+
+.bar:hover{
+  background-color: gray;
+}
+
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
 
 .hover\:bg-white:hover {
