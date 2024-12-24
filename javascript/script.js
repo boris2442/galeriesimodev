@@ -38,11 +38,15 @@ const closeIcon=document.querySelector(".closeIcon")
 bar.addEventListener("click", ()=>{
     navigation.classList.add("scrool")
   bar.style.display = 'none';
+//   closeIcon.classList.remove(rem)
+//   bar.classList.add("rem")
     closeIcon.style.display = 'block';
 
 })
 closeIcon.addEventListener("click", ()=>{
     navigation.classList.remove("scrool")
     closeIcon.style.display = 'none';
+    // closeIcon.classList.add(rem)
     bar.style.display = 'block';
+    // bar.classList.remove("rem")
 })
