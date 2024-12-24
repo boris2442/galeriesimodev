@@ -16,7 +16,7 @@ typewriter.typeString("Bienvenue dans le monde simodev & infinity!")
 
 // var typewriter2 = new Typewriter(app, {
 
-//     deley:100,
+//     deley:300,
 //     loop:true
 // });
 
@@ -29,3 +29,13 @@ typewriter.typeString("Bienvenue dans le monde simodev & infinity!")
 //     .typeString('<strong>altered!</strong>')
 //     .pauseFor(2500)
 //     .start();
+
+const bar=document.querySelector(".bar");
+const navigation=document.querySelector("header ul");
+const tata=document.querySelector(".tat")
+
+bar.addEventListener("click", ()=>{
+    navigation.classList.toggle("scrool")
+    tata.classList.toggle("bx-x")
+
+})

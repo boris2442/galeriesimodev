@@ -82,4 +82,29 @@ position: absolute;
         padding:30px;
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     }
+
+
+    @media screen and (max-width:1280px) {
+        header ul{
+            position: absolute;
+            display: flex;
+            left:-100%;
+            transition: 0.8s ease-in-out;
+            top: 151px;
+            width: 250px;
+            height: 300px;
+            padding: 0;
+            gap:30px;
+            box-shadow: 2px 2px 5px  rbg(33, 50, 145) ;
+            border: 1px solid rgb(28, 28, 69);
+            column-gap: 0px;
+           padding-left: 10px;
+           border-radius: 7px;
+            flex-direction: column;
+        }
+
+        .scrool{
+           left: 5px;
+        }
+    }
 }
