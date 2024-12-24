@@ -796,6 +796,10 @@ video {
   width: 100%;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
 .rotate-\[90deg\] {
   --tw-rotate: 90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1363,6 +1367,10 @@ header ul li a:hover::before{
   .max-lg\:flex {
     display: flex;
   }
+
+  .max-lg\:w-\[100\%\] {
+    width: 100%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1372,5 +1380,13 @@ header ul li a:hover::before{
 
   .lg\:w-\[100\%\] {
     width: 100%;
+  }
+}
+
+@media not all and (min-width: 1024px) {
+  @media (min-width: 1024px) {
+    .max-lg\:lg\:w-\[100\%\] {
+      width: 100%;
+    }
   }
 }
