@@ -136,4 +136,8 @@ position: absolute;
         align-items: center;
         height: 50px;
     }
+    .closeIcon{
+      display: none;
+        
+    }
 }

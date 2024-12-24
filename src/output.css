@@ -1314,6 +1314,10 @@ header ul li a:hover::before{
   height: 50px;
 }
 
+.closeIcon{
+  display: none;
+}
+
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
 
 .hover\:bg-white:hover {

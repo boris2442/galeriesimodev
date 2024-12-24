@@ -32,10 +32,16 @@ typewriter.typeString("Bienvenue dans le monde simodev & infinity!")
 
 const bar=document.querySelector(".bar");
 const navigation=document.querySelector("header ul");
-const tata=document.querySelector(".tat")
+const tata=document.querySelector(".tat");
+const closeIcon=document.querySelector(".closeIcon")
 
 bar.addEventListener("click", ()=>{
     navigation.classList.toggle("scrool")
-    tata.classList.toggle("bx-x")
+  bar.style.display = 'none';
+    closeIcon.style.display = 'block';
 
+})
+closeIcon.addEventListener("click", ()=>{
+    closeIcon.style.display = 'none';
+    bar.style.display = 'block';
 })
