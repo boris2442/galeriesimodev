@@ -1303,6 +1303,15 @@ header ul li a:hover::before{
 
 .bar:hover{
   background-color: gray;
+  padding: 15px;
+  color:#fff;
+  transition: 0.5s ease-in-out;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
 }
 
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
