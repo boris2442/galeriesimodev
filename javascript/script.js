@@ -64,4 +64,12 @@ window.addEventListener("scroll", ()=>{
 
 // librairie scrollReveal.js
 
-const sr=ScrollReveal()
+const sr=ScrollReveal({
+    distance:"30px",
+    origin:"top",
+    reset:true,
+    duration:1500
+})
+sr.reveal(".formulaire, .first-section, .second-section, .third-section, .fourth-section, .fifth-section, .sixth-section, .seven-section, .eight-section, .night-section, .tenth-section ", {
+    interval:200
+})
