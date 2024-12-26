@@ -60,3 +60,8 @@ window.addEventListener("scroll", ()=>{
     // bar.classList.add("tog")
     // closeIcon.classList.add("tog2")
 })
+
+
+// librairie scrollReveal.js
+
+const sr=ScrollReveal()
