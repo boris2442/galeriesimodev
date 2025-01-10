@@ -69,7 +69,15 @@ const sr=ScrollReveal({
     origin:"top",
     reset:true,
     duration:1500
-})
+});
 sr.reveal(".formulaire, .first-section, .second-section, .third-section, .fourth-section, .fifth-section, .sixth-section, .seven-section, .eight-section, .night-section, .tenth-section ", {
     interval:200
-})
+});
+
+
+// chargement de la ppage
+
+window.onload = function() {
+    document.querySelector('.loader').style.display = 'none';
+    document.querySelector('.loader').style.transition='5s ease-out'
+  };
