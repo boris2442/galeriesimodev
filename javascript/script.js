@@ -1,8 +1,8 @@
 const title=document.getElementById("title");
 const typewriter=new Typewriter(title, {
     loop:true,
-    deley:100,
-    deleteSpeed: 1000,
+    deley:10,
+    deleteSpeed: 50,
 });
 
 typewriter.typeString("Bienvenue dans le monde simodev & infinity!")
@@ -38,27 +38,22 @@ const closeIcon=document.querySelector(".closeIcon")
 bar.addEventListener("click", ()=>{
     navigation.classList.add("scrool")
   bar.style.display = 'none';
-//   bar.classList.add("closeIcon")
-//   closeIcon.classList.remove(rem)
-//   bar.classList.add("rem")
+
     closeIcon.style.display = 'block';
 
 })
 closeIcon.addEventListener("click", ()=>{
     navigation.classList.remove("scrool")
     closeIcon.style.display = 'none';
-    // closeIcon.classList.add(rem)
+  
     bar.style.display = 'block';
-    // bar.classList.remove("rem")
+
 })
 
   
 window.addEventListener("scroll", ()=>{
     navigation.classList.remove("scrool")
-    // closeIcon.style.display = 'none'
-    // bar.style.display = 'block'
-    // bar.classList.add("tog")
-    // closeIcon.classList.add("tog2")
+    
 })
 
 
